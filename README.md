@@ -1,21 +1,14 @@
-Installation mkvirtualenv
-=========================
+Organisation du projet
+=======================
 
-Dans .bashrc ou .zshrc
+Création dossier apps
 
-export WORKON_HOME=~/.virtualenvs
-mkdir -p $WORKON_HOME
-source /usr/local/bin/virtualenvwrapper.sh
+on place son app poll dans apps et on modifie le settings
 
-fermer le terminal et le relancer
-installer python3 et python3-dev
+./manage.py makemigrations
 
-mkvirtualenv djangoinitiation --python=/usr/bin/python3
+./manage.py migrate
 
-voir le postactivate pour cd direct dans le projet
+./manage.py showmigrations
 
-git clone
-
-
-
-
+Création d'une class dans models.py

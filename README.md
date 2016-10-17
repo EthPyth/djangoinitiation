@@ -1,14 +1,14 @@
-Organisation du projet
+On place un env de dev
 =======================
 
-Création dossier apps
+on se fait un settings-local et un settings-prod car on bosse bien!
 
-on place son app poll dans apps et on modifie le settings
+on conf pour bosser en settings-local
 
-./manage.py makemigrations
+on se fait un requirements-devel
 
-./manage.py migrate
+http://django-debug-toolbar.readthedocs.io/en/stable/installation.html
+ipython
+ipdb
 
-./manage.py showmigrations
-
-Création d'une class dans models.py
+Création d'une class dans models.py pour Poll
